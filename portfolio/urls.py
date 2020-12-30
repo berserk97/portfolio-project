@@ -22,7 +22,7 @@ from pf_items import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('blog/', include('blog.urls')),
+    path('blog/', include('blog.urls'), name='blog'),
 
 ]
 
