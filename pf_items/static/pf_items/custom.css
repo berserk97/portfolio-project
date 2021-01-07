@@ -1,18 +1,12 @@
-.navbar-nav .nav-link {
-    color: rgba(0,0,0,1) !important;
-}
 
-.navbar-nav .nav-link:hover {
-    color: #428bca !important;
-}
-
-.navbar {
-    background-color: #EEEEEE;
-}
+body, html {
+    height: 100%;
+  }
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #F5F5F5;
+    background-color: #14213D;
+    color: white;
 }
 
 #blogtitle {
@@ -27,3 +21,32 @@ body {
         font-size: 5rem;
     }
 }
+
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand span {
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#blog-btn:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+#my-img {
+    border-radius: 50%;
+}
+
