@@ -22,6 +22,10 @@ body {
     }
 }
 
+hr {
+    border-top: 1px solid white;
+}
+
 
 .navbar {
     background-color: white;
@@ -31,6 +35,7 @@ body {
     letter-spacing: 3px;
     font-size: 30px;
     font-weight: 600;
+    color: black;
 }
 
 #blog-btn:hover {
